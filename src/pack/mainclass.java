@@ -1,10 +1,10 @@
 package pack;
 
 public class mainclass {
+	private static mainform form1 = new mainform();
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		form1.setVisible(true);
 	}
 
 }
